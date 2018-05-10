@@ -1,0 +1,10 @@
+|encoder
+result[0] <= inst.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+reg3 => inst6.IN0
+reg3 => inst.IN0
+reg2 => inst6.IN1
+reg1 => inst.IN1
+reg0 => ~NO_FANOUT~
+
+

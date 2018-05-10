@@ -1,0 +1,228 @@
+GED
+
+	Undo Commands
+	     1.	Move
+	     2.	Move
+	     3.	Move
+	     4.	Move
+	     5.	Move
+	     6.	Insert Symbol
+	     7.	Delete
+
+
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Properties
+	     3.	Insert Bus
+	     4.	Properties
+	     5.	Properties
+	     6.	Insert Bus
+	     7.	Properties
+	     8.	Properties
+	     9.	Insert Bus
+	    10.	Properties
+	    11.	Properties
+	    12.	Insert Bus
+	    13.	Properties
+	    14.	Properties
+	    15.	Insert Bus
+	    16.	Properties
+	    17.	Insert Bus
+	    18.	Properties
+	    19.	Properties
+	    20.	Properties
+	    21.	Insert Bus
+	    22.	Properties
+	    23.	Properties
+	    24.	Insert Bus
+	    25.	Properties
+	    26.	Properties
+	    27.	Insert Bus
+	    28.	Properties
+	    29.	Properties
+	    30.	Insert Bus
+	    31.	Properties
+	    32.	Properties
+	    33.	Insert Bus
+	    34.	Properties
+	    35.	Properties
+	    36.	Insert Bus
+	    37.	Properties
+	    38.	Insert Bus
+	    39.	Properties
+	    40.	Properties
+	    41.	Properties
+	    42.	Insert Bus
+	    43.	Properties
+	    44.	Properties
+	    45.	Insert Bus
+	    46.	Properties
+	    47.	Properties
+	    48.	Insert Bus
+	    49.	Properties
+	    50.	Insert Bus
+	    51.	Properties
+	    52.	Properties
+	    53.	Insert Bus
+	    54.	Properties
+	    55.	Properties
+	    56.	Move
+	    57.	Move
+	    58.	Properties
+	    59.	Insert Bus
+	    60.	Move
+	    61.	Move
+	    62.	Properties
+	    63.	Insert Bus
+	    64.	Properties
+	    65.	Move
+	    66.	Move
+	    67.	Properties
+	    68.	Properties
+	    69.	Insert Bus
+	    70.	Move
+	    71.	Move
+	    72.	Move
+	    73.	Move
+	    74.	Properties
+	    75.	Insert Bus
+	    76.	Properties
+	    77.	Properties
+	    78.	Properties
+	    79.	Insert Bus
+	    80.	Move
+	    81.	Move
+	    82.	Properties
+	    83.	Properties
+	    84.	Insert Bus
+	    85.	Properties
+	    86.	Move
+	    87.	Move
+	    88.	Properties
+	    89.	Properties
+	    90.	Insert Bus
+	    91.	Move
+	    92.	Move
+	    93.	Properties
+	    94.	Properties
+	    95.	Properties
+	    96.	Resize
+	    97.	Insert Bus
+	    98.	Move
+	    99.	Move
+	   100.	Move
+
+
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Properties
+	     3.	Properties
+	     4.	Properties
+	     5.	Move
+	     6.	Move
+	     7.	Paste
+	     8.	Properties
+	     9.	Properties
+	    10.	Move
+	    11.	Move
+	    12.	Properties
+	    13.	Properties
+	    14.	Move
+	    15.	Move
+	    16.	Move
+	    17.	Move
+	    18.	Properties
+	    19.	Move
+	    20.	Insert Symbol
+	    21.	Insert Bus
+	    22.	Insert Node
+	    23.	Insert Node
+	    24.	Resize
+	    25.	Insert Node
+	    26.	Resize
+	    27.	Insert Node
+	    28.	Insert Node
+	    29.	Insert Node
+	    30.	Move
+	    31.	Move
+	    32.	Move
+	    33.	Move
+	    34.	Move
+	    35.	Move
+	    36.	Paste
+	    37.	Move
+	    38.	Insert Symbol
+	    39.	Move
+	    40.	Delete
+	    41.	Delete
+	    42.	Insert Node
+	    43.	Insert Node
+	    44.	Insert Node
+	    45.	Insert Node
+	    46.	Insert Node
+	    47.	Insert Node
+	    48.	Insert Node
+	    49.	Insert Node
+	    50.	Insert Node
+	    51.	Move
+	    52.	Paste
+	    53.	Delete
+	    54.	Insert Node
+	    55.	Delete
+	    56.	Delete
+	    57.	Move
+	    58.	Move
+	    59.	Move
+	    60.	Delete
+	    61.	Insert Symbol
+	    62.	Resize
+	    63.	Insert Node
+	    64.	Delete Insert
+	    65.	Move
+	    66.	Insert Node
+	    67.	Insert Node
+	    68.	Insert Node
+	    69.	Move
+	    70.	Paste
+	    71.	Properties
+	    72.	Insert Symbol
+	    73.	Properties
+	    74.	Insert Symbol
+	    75.	Properties
+	    76.	Properties
+	    77.	Properties
+	    78.	Properties
+	    79.	Properties
+	    80.	Properties
+	    81.	Properties
+	    82.	Insert Symbol
+	    83.	Properties
+	    84.	Properties
+	    85.	Move
+	    86.	Move
+	    87.	Move
+	    88.	Move
+	    89.	Move
+	    90.	Move
+	    91.	Move
+	    92.	Move
+	    93.	Move
+	    94.	Move
+	    95.	Delete
+	    96.	Insert Node
+	    97.	Insert Node
+	    98.	Properties
+	    99.	Delete Insert
+	   100.	Insert Bus
+
+
+GED
+
+	Undo Commands
+	     1.	Paste
+
+

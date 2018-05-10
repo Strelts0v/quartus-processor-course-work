@@ -1,0 +1,239 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 312 528)
+	(text "CommandParserBlock" (rect 5 0 128 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 496 25 508)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "raw_command[47..0]" (rect 0 0 120 14)(font "Arial" (font_size 8)))
+		(text "raw_command[47..0]" (rect 21 27 141 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 296 32)
+		(output)
+		(text "is_register0_needed" (rect 0 0 116 14)(font "Arial" (font_size 8)))
+		(text "is_register0_needed" (rect 159 27 275 41)(font "Arial" (font_size 8)))
+		(line (pt 296 32)(pt 280 32)(line_width 1))
+	)
+	(port
+		(pt 296 48)
+		(output)
+		(text "is_register1_needed" (rect 0 0 116 14)(font "Arial" (font_size 8)))
+		(text "is_register1_needed" (rect 159 43 275 57)(font "Arial" (font_size 8)))
+		(line (pt 296 48)(pt 280 48)(line_width 1))
+	)
+	(port
+		(pt 296 64)
+		(output)
+		(text "is_register2_needed" (rect 0 0 116 14)(font "Arial" (font_size 8)))
+		(text "is_register2_needed" (rect 159 59 275 73)(font "Arial" (font_size 8)))
+		(line (pt 296 64)(pt 280 64)(line_width 1))
+	)
+	(port
+		(pt 296 80)
+		(output)
+		(text "is_address0_needed" (rect 0 0 120 14)(font "Arial" (font_size 8)))
+		(text "is_address0_needed" (rect 155 75 275 89)(font "Arial" (font_size 8)))
+		(line (pt 296 80)(pt 280 80)(line_width 1))
+	)
+	(port
+		(pt 296 96)
+		(output)
+		(text "is_address1_needed" (rect 0 0 120 14)(font "Arial" (font_size 8)))
+		(text "is_address1_needed" (rect 155 91 275 105)(font "Arial" (font_size 8)))
+		(line (pt 296 96)(pt 280 96)(line_width 1))
+	)
+	(port
+		(pt 296 112)
+		(output)
+		(text "operation_type_18" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "operation_type_18" (rect 169 107 275 121)(font "Arial" (font_size 8)))
+		(line (pt 296 112)(pt 280 112)(line_width 1))
+	)
+	(port
+		(pt 296 128)
+		(output)
+		(text "operation_type_17" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "operation_type_17" (rect 169 123 275 137)(font "Arial" (font_size 8)))
+		(line (pt 296 128)(pt 280 128)(line_width 1))
+	)
+	(port
+		(pt 296 144)
+		(output)
+		(text "operation_type_16" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "operation_type_16" (rect 169 139 275 153)(font "Arial" (font_size 8)))
+		(line (pt 296 144)(pt 280 144)(line_width 1))
+	)
+	(port
+		(pt 296 160)
+		(output)
+		(text "operation_type_15" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "operation_type_15" (rect 169 155 275 169)(font "Arial" (font_size 8)))
+		(line (pt 296 160)(pt 280 160)(line_width 1))
+	)
+	(port
+		(pt 296 176)
+		(output)
+		(text "operation_type_14" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "operation_type_14" (rect 169 171 275 185)(font "Arial" (font_size 8)))
+		(line (pt 296 176)(pt 280 176)(line_width 1))
+	)
+	(port
+		(pt 296 192)
+		(output)
+		(text "operation_type_13" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "operation_type_13" (rect 169 187 275 201)(font "Arial" (font_size 8)))
+		(line (pt 296 192)(pt 280 192)(line_width 1))
+	)
+	(port
+		(pt 296 208)
+		(output)
+		(text "operation_type_12" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "operation_type_12" (rect 169 203 275 217)(font "Arial" (font_size 8)))
+		(line (pt 296 208)(pt 280 208)(line_width 1))
+	)
+	(port
+		(pt 296 224)
+		(output)
+		(text "operation_type_11" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "operation_type_11" (rect 169 219 275 233)(font "Arial" (font_size 8)))
+		(line (pt 296 224)(pt 280 224)(line_width 1))
+	)
+	(port
+		(pt 296 240)
+		(output)
+		(text "operation_type_10" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "operation_type_10" (rect 169 235 275 249)(font "Arial" (font_size 8)))
+		(line (pt 296 240)(pt 280 240)(line_width 1))
+	)
+	(port
+		(pt 296 256)
+		(output)
+		(text "operation_type_9" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "operation_type_9" (rect 176 251 275 265)(font "Arial" (font_size 8)))
+		(line (pt 296 256)(pt 280 256)(line_width 1))
+	)
+	(port
+		(pt 296 272)
+		(output)
+		(text "operation_type_8" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "operation_type_8" (rect 176 267 275 281)(font "Arial" (font_size 8)))
+		(line (pt 296 272)(pt 280 272)(line_width 1))
+	)
+	(port
+		(pt 296 288)
+		(output)
+		(text "operation_type_7" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "operation_type_7" (rect 176 283 275 297)(font "Arial" (font_size 8)))
+		(line (pt 296 288)(pt 280 288)(line_width 1))
+	)
+	(port
+		(pt 296 304)
+		(output)
+		(text "operation_type_6" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "operation_type_6" (rect 176 299 275 313)(font "Arial" (font_size 8)))
+		(line (pt 296 304)(pt 280 304)(line_width 1))
+	)
+	(port
+		(pt 296 320)
+		(output)
+		(text "operation_type_5" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "operation_type_5" (rect 176 315 275 329)(font "Arial" (font_size 8)))
+		(line (pt 296 320)(pt 280 320)(line_width 1))
+	)
+	(port
+		(pt 296 336)
+		(output)
+		(text "operation_type_4" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "operation_type_4" (rect 176 331 275 345)(font "Arial" (font_size 8)))
+		(line (pt 296 336)(pt 280 336)(line_width 1))
+	)
+	(port
+		(pt 296 352)
+		(output)
+		(text "operation_type_3" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "operation_type_3" (rect 176 347 275 361)(font "Arial" (font_size 8)))
+		(line (pt 296 352)(pt 280 352)(line_width 1))
+	)
+	(port
+		(pt 296 368)
+		(output)
+		(text "operation_type_2" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "operation_type_2" (rect 176 363 275 377)(font "Arial" (font_size 8)))
+		(line (pt 296 368)(pt 280 368)(line_width 1))
+	)
+	(port
+		(pt 296 384)
+		(output)
+		(text "operation_type_1" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "operation_type_1" (rect 176 379 275 393)(font "Arial" (font_size 8)))
+		(line (pt 296 384)(pt 280 384)(line_width 1))
+	)
+	(port
+		(pt 296 400)
+		(output)
+		(text "operation_type_0" (rect 0 0 99 14)(font "Arial" (font_size 8)))
+		(text "operation_type_0" (rect 176 395 275 409)(font "Arial" (font_size 8)))
+		(line (pt 296 400)(pt 280 400)(line_width 1))
+	)
+	(port
+		(pt 296 416)
+		(output)
+		(text "register0[5..0]" (rect 0 0 79 14)(font "Arial" (font_size 8)))
+		(text "register0[5..0]" (rect 196 411 275 425)(font "Arial" (font_size 8)))
+		(line (pt 296 416)(pt 280 416)(line_width 3))
+	)
+	(port
+		(pt 296 432)
+		(output)
+		(text "address0[15..0]" (rect 0 0 89 14)(font "Arial" (font_size 8)))
+		(text "address0[15..0]" (rect 186 427 275 441)(font "Arial" (font_size 8)))
+		(line (pt 296 432)(pt 280 432)(line_width 3))
+	)
+	(port
+		(pt 296 448)
+		(output)
+		(text "register1[5..0]" (rect 0 0 79 14)(font "Arial" (font_size 8)))
+		(text "register1[5..0]" (rect 196 443 275 457)(font "Arial" (font_size 8)))
+		(line (pt 296 448)(pt 280 448)(line_width 3))
+	)
+	(port
+		(pt 296 464)
+		(output)
+		(text "register2[5..0]" (rect 0 0 79 14)(font "Arial" (font_size 8)))
+		(text "register2[5..0]" (rect 196 459 275 473)(font "Arial" (font_size 8)))
+		(line (pt 296 464)(pt 280 464)(line_width 3))
+	)
+	(port
+		(pt 296 480)
+		(output)
+		(text "address1[15..0]" (rect 0 0 89 14)(font "Arial" (font_size 8)))
+		(text "address1[15..0]" (rect 186 475 275 489)(font "Arial" (font_size 8)))
+		(line (pt 296 480)(pt 280 480)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 280 496)(line_width 1))
+	)
+)
