@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY encoder
+set_global_assignment -name TOP_LEVEL_ENTITY STACK
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:38:18  FEBRUARY 13, 2018"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.1
@@ -51,14 +51,11 @@ set_global_assignment -name BDF_FILE ALU/ALU_FLAG.bdf
 set_global_assignment -name QIP_FILE lpm_dff0.qip
 set_global_assignment -name QIP_FILE lpm_mux0.qip
 set_global_assignment -name QIP_FILE lpm_decode0.qip
-set_global_assignment -name BDF_FILE 20Registers.bdf
-set_global_assignment -name VECTOR_WAVEFORM_FILE 20Registers.vwf
 set_global_assignment -name QIP_FILE lpm_inv0.qip
 set_global_assignment -name QIP_FILE ALU/lpm_and0.qip
 set_global_assignment -name QIP_FILE ALU/lpm_add_sub0.qip
 set_global_assignment -name QIP_FILE ALU/lpm_clshift0.qip
 set_global_assignment -name QIP_FILE lpm_or1.qip
-set_global_assignment -name BDF_FILE STACK/Stack_register.bdf
 set_global_assignment -name BDF_FILE ALU/ALU_NOR.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ALU/ALU_NOR_Test.vwf
 set_global_assignment -name QIP_FILE ALU/lpm_or1.qip
@@ -99,7 +96,6 @@ set_global_assignment -name QIP_FILE word_storage.qip
 set_global_assignment -name QIP_FILE lpm_decode2.qip
 set_global_assignment -name QIP_FILE lpm_or2.qip
 set_global_assignment -name QIP_FILE lpm_or3.qip
-set_global_assignment -name BDF_FILE CommandParserBlock.bdf
 set_global_assignment -name QIP_FILE lpm_dff3.qip
 set_global_assignment -name QIP_FILE lpm_add_sub3.qip
 set_global_assignment -name QIP_FILE ROM.qip
@@ -118,17 +114,24 @@ set_global_assignment -name QIP_FILE registerMux.qip
 set_global_assignment -name BDF_FILE RegisterBlock.bdf
 set_global_assignment -name QIP_FILE ALU/ALU_ADD.qip
 set_global_assignment -name QIP_FILE ALU/lpm_or4.qip
-set_global_assignment -name QIP_FILE ../akela/SifoKursach/lpm_compare0.qip
 set_global_assignment -name QIP_FILE ALU/ab_comparator.qip
 set_global_assignment -name QIP_FILE ALU/aluFlagOr.qip
 set_global_assignment -name QIP_FILE ALU/abOr.qip
 set_global_assignment -name VECTOR_WAVEFORM_FILE RegisterBlock_Test.vwf
 set_global_assignment -name BDF_FILE encoder.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Encoder_Test.vwf
+set_global_assignment -name BDF_FILE CommandBlock.bdf
+set_global_assignment -name QIP_FILE MUX41.qip
+set_global_assignment -name QIP_FILE MUX418.qip
+set_global_assignment -name QIP_FILE addressAdder.qip
+set_global_assignment -name QIP_FILE MUX415.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE CommandBlock_Test.vwf
+set_global_assignment -name QIP_FILE rawCommandDecoder.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE ControlBlock_Test.vwf
+set_global_assignment -name QIP_FILE stack_address_sub.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_global_assignment -name VECTOR_WAVEFORM_FILE Encoder_Test.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Encoder_Test.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE STACK/STACK_Test.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name BDF_FILE CommandX.bdf

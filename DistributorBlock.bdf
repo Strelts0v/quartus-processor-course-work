@@ -358,6 +358,24 @@ applicable agreement for further details.
 	)
 	(flipy_rotate90)
 )
+(symbol
+	(rect 552 304 584 336)
+	(text "GND" (rect 6 3 16 24)(font "Arial" (font_size 6))(vertical))
+	(text "inst2" (rect -1 6 11 29)(font "Arial" )(vertical)(invisible))
+	(port
+		(pt 32 16)
+		(output)
+		(text "1" (rect 18 0 23 12)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 20 9 32 14)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 24 16)(pt 32 16)(line_width 1))
+	)
+	(drawing
+		(line (pt 24 24)(pt 16 16)(line_width 1))
+		(line (pt 16 16)(pt 24 8)(line_width 1))
+		(line (pt 24 24)(pt 24 8)(line_width 1))
+	)
+	(flipx_rotate90)
+)
 (connector
 	(pt 512 336)
 	(pt 536 336)
@@ -640,6 +658,42 @@ applicable agreement for further details.
 	(pt 792 784)
 	(bus)
 )
+(connector
+	(pt 584 320)
+	(pt 592 320)
+)
+(connector
+	(pt 592 296)
+	(pt 608 296)
+)
+(connector
+	(pt 592 344)
+	(pt 608 344)
+)
+(connector
+	(pt 592 312)
+	(pt 608 312)
+)
+(connector
+	(pt 592 296)
+	(pt 592 312)
+)
+(connector
+	(pt 592 312)
+	(pt 592 320)
+)
+(connector
+	(pt 592 328)
+	(pt 608 328)
+)
+(connector
+	(pt 592 320)
+	(pt 592 328)
+)
+(connector
+	(pt 592 328)
+	(pt 592 344)
+)
 (junction (pt 536 336))
 (junction (pt 536 360))
 (junction (pt 784 576))
@@ -655,3 +709,6 @@ applicable agreement for further details.
 (junction (pt 784 736))
 (junction (pt 784 752))
 (junction (pt 784 768))
+(junction (pt 592 320))
+(junction (pt 592 312))
+(junction (pt 592 328))
